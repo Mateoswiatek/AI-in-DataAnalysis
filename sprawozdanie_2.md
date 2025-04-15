@@ -152,7 +152,7 @@ Przeprowadzone eksperymenty wykazały znaczący wpływ współczynnika dyskontow
 
 ### 4.3 Krzywe uczenia
 
-![Krzywe uczenia dla różnych wartości współczynnika dyskontowego](learning_curves_comparison.png)
+![Krzywe uczenia dla różnych wartości współczynnika dyskontowego](/figures/learning_curves_comparison.png)
 
 Analiza krzywych uczenia pokazuje, że:
 - Wyższy współczynnik dyskontowy (γ = 0.99) prowadził do wolniejszego, ale bardziej stabilnego wzrostu średniej nagrody.
@@ -162,13 +162,13 @@ Analiza krzywych uczenia pokazuje, że:
 ### 4.4 Wizualizacja polityki
 
 #### Polityka dla γ = 0.99
-![Polityka dla γ = 0.99](policy_gamma_0.99.png)
+![Polityka dla γ = 0.99](/figures/policy_gamma_0.99.png)
 
 #### Polityka dla γ = 0.8
-![Polityka dla γ = 0.8](policy_gamma_0.8.png)
+![Polityka dla γ = 0.8](/figures/policy_gamma_0.8.png)
 
 #### Polityka dla γ = 0.5
-![Polityka dla γ = 0.5](policy_gamma_0.5.png)
+![Polityka dla γ = 0.5](/figures/policy_gamma_0.5.png)
 
 Wizualizacja wyuczonej polityki dla różnych wartości γ ujawniła interesujące różnice w zachowaniu agenta:
 - Dla γ = 0.99 polityka wykazywała wyraźniejsze granice między regionami akcji i bardziej płynne przejścia.
@@ -177,7 +177,7 @@ Wizualizacja wyuczonej polityki dla różnych wartości γ ujawniła interesują
 
 ### 4.5 Porównanie efektywności końcowej
 
-![Porównanie średnich nagród dla różnych współczynników dyskontowych](final_performance_comparison.png)
+![Porównanie średnich nagród dla różnych współczynników dyskontowych](/figures/final_performance_comparison.png)
 
 Wykres przedstawia średnią nagrodę osiągniętą przez agentów wytrenowanych z różnymi współczynnikami dyskontowymi podczas ewaluacji. Wyraźnie widoczna jest przewaga agenta z γ = 0.99.
 
