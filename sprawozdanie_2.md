@@ -1,5 +1,6 @@
 # Sprawozdanie z implementacji agenta uczenia ze wzmocnieniem w środowiskach ciągłych
 
+Mateusz Śœiątek, Maciej Trzaskacz
 ## 1. Wprowadzenie
 
 Celem niniejszego projektu było zastosowanie algorytmów uczenia ze wzmocnieniem (ang. Reinforcement Learning, RL) do rozwiązania problemu z ciągłą przestrzenią obserwacji. Zaimplementowano agenta wykorzystującego metodę Q-learning z dyskretyzacją przestrzeni stanów, który został przetestowany w środowisku CartPole z biblioteki Gymnasium (dawniej OpenAI Gym). Dodatkowo przeprowadzono eksperymenty mające na celu zbadanie wpływu różnych współczynników dyskontowych na proces uczenia i wyniki końcowe.
